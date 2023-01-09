@@ -1,3 +1,6 @@
+
+
+
 *,
 *::before,
 *::after {
@@ -6,7 +9,7 @@
 
 html,
 body,
-.wrapper {
+.container {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -14,10 +17,10 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-image: url("C:\Users\gmfab\Repo\Password-Generator\assets\rune_unown.jpg")
 }
 
-.wrapper {
+.container {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
@@ -42,16 +45,23 @@ header {
   padding: 30px 40px;
 }
 
+h2 {
+  text-align: center;
+}
+
 .card-header::after {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #c8ced5;
   height: 2px;
+  
 }
+
 
 .card-body {
   min-height: 100px;
+  
 }
 
 .card-footer {
@@ -135,3 +145,5 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
+
+
